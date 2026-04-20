@@ -11,5 +11,5 @@ import com.example.finalBack.modelos.Gasto;
 public interface IGastoRepositorio extends JpaRepository<Gasto, Integer> {
 
     // buscar por valor
-    List<Gasto> findByValor(Double valor);
+    List<Gasto> findByMonto(double monto);
 }
