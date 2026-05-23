@@ -50,7 +50,9 @@ public class CategoriaControlador {
                 .body(servicio.actualizarCategoria(id, datos));
     }
 
-    
+
+
+    //Eliminar
     @DeleteMapping("/{id}")
     public ResponseEntity<?> controladorEliminar(
             @PathVariable Integer id){
